@@ -1,5 +1,6 @@
-require "rspec_support_methods/version"
+Dir["#{__dir__}/rspec_support_methods/*.rb"].each { |file| require file }
 
 module RspecSupportMethods
-  # Your code goes here...
+  include Randomizer
+  include TemporaryFile
 end

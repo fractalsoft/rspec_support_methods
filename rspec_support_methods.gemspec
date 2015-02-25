@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = RspecSupportMethods::VERSION
   spec.authors       = ['Agnieszka Matysek']
   spec.email         = ['amatysek@fractalsoft.org']
-  spec.summary       = %q{Helpers methods for RSpec}
+  spec.summary       = 'Helpers methods for RSpec'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
